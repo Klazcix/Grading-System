@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="grading.css">
+    <script src="grade.js"></script>
+</head>
+<body>
+    <h1>Grading System</h1>
+    <div class="parent">
+        <div class="student">
+            <div>
+                <label class="stud">Student Name:</label>
+                <input id="stuname" type="text" placeholder="Student's Name">
+            </div>
+        </div>
+        <div class="subjects">
+            <div>
+                <label>Mathematics</label>
+                <input id="Subject1" class="Math" type="text">
+            </div>
+            <div>
+                <label>English</label>
+                <input id="Subject2" class="Eng" type="text">
+            </div>
+            <div>
+                <label>Physics</label>
+                <input id="Subject3" class="Phy" type="text">
+            </div>
+            <div>
+                <label>Chemitry</label>
+                <input id="Subject4" class="Chem" type="text">
+            </div>
+        </div>
+        <button Onclick="showResult()"> CHECK RESULT </button>
+        <div id="result" class="mess"></div>
+    </div>
+    
+    
+</body>
+
+</html>
